@@ -2,18 +2,26 @@
  * Notebooks *
  *************/
 notebook {
+  .frame{
+    *:selected{
+      background: transparent;
+      color: $selected_bg_color;
+    } 
+  }
   > header {
     padding: 1px;
     border-color: $borders_color;
     border-width: 0px;
-    background-color: $bg_color;
+    background-color: $complementary_color;
+    
+   
 
     &:backdrop {
       border-color: $backdrop_borders_color;
       background-color: $backdrop_bg_color;
     }
 
-    tabs { margin: -1px; }
+    tabs { margin: -1px -5px; }
 
     &.top {
       border-bottom-style: solid;
@@ -192,7 +200,7 @@ notebook {
 
       // colors the button like the label, overridden otherwise
       button.flat {
-        &:hover { color: currentColor; }
+        &:hover {  background: transparent; box-shadow: none; color: $red;  }
 
         &, &:backdrop { color: gtkalpha(currentColor, 0.3); }
 

@@ -27,11 +27,46 @@
     transition: $backdrop_transition;
   }
 
-  list { background-color: $base_color; }
+  row{
+    &:selected{
+      background: transparent;
+      color: $selected_bg_color;
+      label{
+    
+        color: $selected_bg_color;
+      }
+    }
+  }
+  //elementary os file manager
+  &.source-list{
+    background-color: $dracula; 
+    color: #F2EFEA; 
+    padding: 4px 0px;
+    &.view{
 
+    &:selected {
+      &:active { box-shadow: inset 0 2px 3px -1px transparentize(black, 0.5); }
+
+      &.has-open-popup,
+      &:hover { background-color: transparentize($selected_bg_color, 0.8); }
+
+      &:backdrop { background-color: transparent; }
+    }
+      &:hover, iconview.source-list:hover { 
+          background-color: if(variant == light, transparentize($dracula, 0.4), transparentize($dracula, 0.4)); 
+      }
+    }
+  }
+  
   paned & { &.left, &.right, &.left:dir(rtl), &:dir(rtl), &:dir(ltr), & {
     border-style: none;
     border-color: $borders_color;
+
+    list {
+      background-color: $dracula; 
+      color: #F2EFEA; 
+     }
+    
   }
 }
 }
@@ -44,6 +79,8 @@ stacksidebar {
 
     &:dir(rtl),
     &.right { list { @extend %sidebar_right; }}
+
+    
   }
 
   row {

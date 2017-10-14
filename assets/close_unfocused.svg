@@ -13,8 +13,11 @@
    height="13"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="close_unfocused.svg">
+   inkscape:version="0.92+devel unknown"
+   sodipodi:docname="close_unfocused.svg"
+   inkscape:export-filename="/home/lara/.themes/Bloody/assets/close_unfocused.png"
+   inkscape:export-xdpi="120"
+   inkscape:export-ydpi="120">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -24,8 +27,8 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="22.4"
-     inkscape:cx="-5.9431437"
+     inkscape:zoom="10.679518"
+     inkscape:cx="-11.468602"
      inkscape:cy="8.8543682"
      inkscape:document-units="px"
      inkscape:current-layer="g4197"
@@ -34,11 +37,12 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1280"
-     inkscape:window-height="745"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
      inkscape:window-x="0"
-     inkscape:window-y="30"
-     inkscape:window-maximized="1" />
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:document-rotation="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -72,13 +76,13 @@
              id="g4197">
             <path
                id="path4199"
-               style="fill:#b4b4b4;fill-opacity:1;fill-rule:evenodd;stroke:none"
-               d="m 430.199,4.57031 c 236.063,0 427.43,191.36369 427.43,427.42969 0,236.059 -191.367,427.426 -427.43,427.426 C 194.137,859.426 2.76953,668.059 2.76953,432 2.76953,195.934 194.137,4.57031 430.199,4.57031"
+               style="fill:#5b5c63;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1"
+               d="m 398.7018,-31.874244 c 240.0053,0 434.56818,194.560354 434.56818,434.569774 0,240.00229 -194.56288,434.56602 -434.56818,434.56602 -240.00428,0 -434.567633,-194.56373 -434.567633,-434.56602 0,-240.00942 194.563353,-434.569774 434.567633,-434.569774"
                inkscape:connector-curvature="0" />
             <path
                id="path4201"
-               style="fill:#d4d4d4;fill-opacity:1;fill-rule:evenodd;stroke:none"
-               d="m 430.199,40.9219 c 215.985,0 391.078,175.0901 391.078,391.0781 0,215.98 -175.093,391.074 -391.078,391.074 C 214.215,823.074 39.1211,647.98 39.1211,432 39.1211,216.012 214.215,40.9219 430.199,40.9219"
+               style="fill:#5b5c63;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1"
+               d="m 398.7018,5.0845881 c 219.592,0 397.60909,178.0149219 397.60909,397.6109419 0,219.58788 -178.01709,397.60677 -397.60909,397.60677 C 179.11082,800.3023 1.092816,622.28341 1.092816,402.69553 1.092816,183.09951 179.11082,5.0845881 398.7018,5.0845881"
                inkscape:connector-curvature="0" />
           </g>
         </g>
