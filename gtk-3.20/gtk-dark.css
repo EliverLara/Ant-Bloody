@@ -2051,7 +2051,8 @@ frame > border,
   box-shadow: none;
   margin: 0;
   padding: 0;
-  border-radius: 0; }
+  border-radius: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1); }
   frame > border.flat,
   .frame.flat {
     border-style: none; }
@@ -2341,12 +2342,7 @@ headerbar {
   background-color: #1e1f29;
   color: #C3C7D1;
   border-radius: 0;
-  -GtkPaned-handle-size: 0;
-  /*.linked > button:hover,
-  .linked > button:active,
-  .linked > button:checked {
-    @include lines(up);
-  }*/ }
+  -GtkPaned-handle-size: 0; }
   .titlebar:backdrop:not(headerbar),
   headerbar:backdrop {
     border-color: rgba(20, 27, 30, 0.19);
@@ -2542,6 +2538,14 @@ headerbar {
       headerbar button.titlebutton * {
         color: transparent;
         box-shadow: none; }
+  .titlebar:not(headerbar) .linked > button:active:backdrop, .titlebar:not(headerbar) .linked > button:checked:backdrop,
+  headerbar .linked > button:active:backdrop,
+  headerbar .linked > button:checked:backdrop {
+    color: rgba(255, 81, 47, 0.6); }
+    .titlebar:not(headerbar) .linked > button:active:backdrop label, .titlebar:not(headerbar) .linked > button:checked:backdrop label,
+    headerbar .linked > button:active:backdrop label,
+    headerbar .linked > button:checked:backdrop label {
+      color: rgba(255, 81, 47, 0.6); }
   .selection-mode.titlebar:not(headerbar),
   headerbar.selection-mode {
     color: #f8f8f2;
@@ -3299,7 +3303,7 @@ notebook > header {
       color: #71787f; }
       notebook > header tab:backdrop:checked.reorderable-page {
         border-color: rgba(20, 27, 30, 0.19);
-        background-color: #1E282C; }
+        background-color: #202b2f; }
     notebook > header tab button.flat {
       padding: 0;
       margin-top: 4px;
@@ -4137,6 +4141,8 @@ treeview ~ scrollbar.vertical {
   border-style: none;
   border-width: 0;
   background-color: #1e282c; }
+  .sidebar .frame {
+    border: none; }
   stacksidebar.sidebar:dir(ltr) list, stacksidebar.sidebar.left list, stacksidebar.sidebar.left:dir(rtl) list, .sidebar:dir(ltr), .sidebar.left, .sidebar.left:dir(rtl) {
     border-right: none;
     border-left-style: none; }
@@ -4150,6 +4156,10 @@ treeview ~ scrollbar.vertical {
   .sidebar row:selected {
     background: transparent;
     color: #FF512F; }
+    .sidebar row:selected:backdrop {
+      color: rgba(255, 81, 47, 0.6); }
+      .sidebar row:selected:backdrop label {
+        color: rgba(255, 81, 47, 0.6); }
     .sidebar row:selected label {
       color: #FF512F; }
   .sidebar.source-list {
@@ -4168,7 +4178,7 @@ treeview ~ scrollbar.vertical {
     border-style: none;
     border-color: rgba(0, 0, 0, 0.1); }
     paned .sidebar.left list, paned .sidebar.right list, paned .sidebar.left:dir(rtl) list, paned .sidebar:dir(rtl) list, paned .sidebar:dir(ltr) list, paned .sidebar list {
-      background-color: #1e1f29;
+      background-color: #22232e;
       color: #F2EFEA; }
 
 stacksidebar row {
@@ -4433,7 +4443,7 @@ switch {
   switch trough:active, switch trough:checked {
     background-color: #FF512F; }
     switch trough:active:backdrop, switch trough:checked:backdrop {
-      background-color: #FF512F; }
+      background-color: rgba(255, 81, 47, 0.6); }
 
 /************
  * Toolbars *
@@ -5975,7 +5985,7 @@ ConversationListView {
     background-color: #FF512F;
     color: #f8f8f2; }
     ConversationListView .view:active:backdrop, ConversationListView iconview:active:backdrop, ConversationListView .view:selected:backdrop, ConversationListView iconview:selected:backdrop {
-      background-color: #FF512F;
+      background-color: rgba(255, 81, 47, 0.6);
       color: rgba(248, 248, 242, 0.5); }
   ConversationListView .view .cell, ConversationListView iconview .cell {
     border: solid rgba(0, 0, 0, 0.2);
