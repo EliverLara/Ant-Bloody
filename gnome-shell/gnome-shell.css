@@ -143,7 +143,7 @@ StScrollBar {
   -slider-background-color: rgba(0, 0, 0, 0.14);
   -slider-border-color: black;
   -slider-active-background-color: #FF512F;
-  -slider-active-border-color: #50fa7a;
+  -slider-active-border-color: #B2FFA9;
   -slider-border-width: 0;
   -slider-handle-radius: 6px; }
 
@@ -209,7 +209,7 @@ StScrollBar {
     width: 20em;
     margin-bottom: 6px; }
   .modal-dialog .run-dialog-error-box {
-    color: #ff3c3c;
+    color: #eb233f;
     padding-top: 16px;
     spacing: 6px; }
   .modal-dialog .run-dialog-button-box {
@@ -249,9 +249,9 @@ StScrollBar {
   spacing: 42px;
   border: none; }
   .end-session-dialog .modal-dialog-linked-button:last-child {
-    color: #ff3c3c; }
+    color: #eb233f; }
     .end-session-dialog .modal-dialog-linked-button:last-child:focus {
-      color: #ff3c3c; }
+      color: #eb233f; }
 
 .end-session-dialog-list {
   padding-top: 20px; }
@@ -281,7 +281,7 @@ StScrollBar {
   background-size: contain; }
 
 .end-session-dialog-shutdown-icon {
-  color: #ff3c3c;
+  color: #eb233f;
   width: 48px;
   height: 48px; }
 
@@ -383,7 +383,7 @@ StScrollBar {
 
 .prompt-dialog-error-label {
   font-size: 10pt;
-  color: #ff3c3c;
+  color: #eb233f;
   padding-bottom: 8px; }
 
 .prompt-dialog-info-label {
@@ -942,7 +942,7 @@ StScrollBar {
 
 .message-list-section-close:hover > StIcon,
 .message-list-section-close:focus > StIcon .message-list-section-close:active > StIcon {
-  color: #ff5555;
+  color: #ED3A53;
   background: transparent; }
 
 .message {
@@ -983,7 +983,7 @@ StScrollBar {
   padding: 10px; }
   .message-content *:hover > StIcon,
   .message-content *:focus > StIcon {
-    color: #ff5555; }
+    color: #ED3A53; }
 
 .message-media-control {
   padding: 12px;
