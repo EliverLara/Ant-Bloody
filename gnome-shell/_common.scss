@@ -558,7 +558,7 @@ StScrollBar {
     height: 1px; //not really the whole box
     margin: 6px 64px;
     background-color: transparent;
-    border-color: lighten($borders_color,10%);
+    border-color: transparent;
     border-bottom-width: 1px;
     border-bottom-style: solid;
   }
@@ -833,21 +833,12 @@ StScrollBar {
   .screencast-indicator { color: $warning_color; }
 
   &.solid {
-    background-color: black;
+    background-color: darken($dracula,10%);
     /* transition from transparent to solid */
     transition-duration: 300ms;
 
     .panel-corner {
       -panel-corner-background-color: black;
-    }
-
-    .panel-button {
-      color: #ccc;
-      text-shadow: none;
-
-      &:hover {
-        color: lighten($fg_color, 10%);
-      }
     }
 
     .system-status-icon,
