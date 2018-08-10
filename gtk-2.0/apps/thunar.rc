@@ -11,5 +11,14 @@ style "sidepane" {
 	text[NORMAL] 		= @sidebar_fg
 }
 
+style "thunar-frame" {
+  xthickness = 0
+  ythickness = 0
+}
+
+style "thunar-handle" { GtkPaned::handle-size = 2 }
+
+widget_class "*ThunarWindow*.<GtkScrolledWindow>"       style "thunar-frame"
+widget_class "*ThunarWindow*.<GtkHPaned>"               style "thunar-handle"
 widget_class "*ThunarShortcutsView*" style "sidepane"
 widget_class "*ThunarTreeView*" style "sidepane"
