@@ -2,20 +2,12 @@
  * Notebooks *
  *************/
 notebook {
-  .frame{
-    *:selected{
-      background: transparent;
-      color: $selected_bg_color;
-    } 
-  }
   > header {
     padding: 1px;
     border-color: $borders_color;
     border-width: 0px;
     background-color: $complementary_color;
     
-   
-
     &:backdrop {
       border-color: $backdrop_borders_color;
       background-color: $backdrop_bg_color;
