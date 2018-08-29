@@ -382,6 +382,13 @@ button {
     min-width: 24px;
     padding-left: 4px;
     padding-right: 4px; }
+    notebook > header > tabs > arrow.image-button.sidebar-button,
+    button.image-button.sidebar-button {
+      background-color: #1E282C;
+      color: #F2EFEA; }
+      notebook > header > tabs > arrow.image-button.sidebar-button:hover,
+      button.image-button.sidebar-button:hover {
+        background-color: #FF512F; }
   notebook > header > tabs > arrow.text-button,
   button.text-button {
     padding-left: 16px;
