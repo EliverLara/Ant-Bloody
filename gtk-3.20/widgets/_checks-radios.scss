@@ -9,9 +9,9 @@
 @each $s,$un in ('','-unchecked'),
                   (':hover', '-unchecked-hover'),
                   (':active', '-unchecked-active'),
-                  (':backdrop', '-unchecked'),
+                  (':backdrop', '-unchecked-backdrop'),
                   (':disabled', '-unchecked-insensitive'),
-                  (':disabled:backdrop', '-unchecked') {
+                  (':disabled:backdrop', '-unchecked-insensitive') {
   check#{$s}{
     -gtk-icon-source: if($variant == 'light', -gtk-scaled(url("../assets/checkbox#{$un}.png"),url("../assets/checkbox#{$un}@2.png")), -gtk-scaled(url("../assets/checkbox#{$un}-dark.png"),url("../assets/checkbox#{$un}@2.png")));
     -gtk-icon-shadow: none;
@@ -26,7 +26,7 @@
 @each $s,$ch in (':checked', '-checked'),
                   (':checked:hover', '-checked-hover'),
                   (':checked:active', '-checked-active'),
-                  (':checked:backdrop', '-checked'),
+                  (':checked:backdrop', '-checked-backdrop'),
                   (':checked:disabled', '-checked-insensitive'),
                   (':checked:disabled:backdrop', '-checked-insensitive') {
   check#{$s}{
@@ -43,7 +43,7 @@
 @each $s,$mx in (':indeterminate', '-mixed'),
                   (':indeterminate:hover', '-mixed-hover'),
                   (':indeterminate:active', '-mixed-active'),
-                  (':indeterminate:backdrop', '-mixed'),
+                  (':indeterminate:backdrop', '-mixed-backdrop'),
                   (':indeterminate:disabled', '-mixed-insensitive'),
                   (':indeterminate:disabled:backdrop', '-mixed-insensitive') {
   check#{$s}{
