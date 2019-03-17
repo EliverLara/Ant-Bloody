@@ -2567,6 +2567,19 @@ headerbar {
     headerbar .linked > button:active:backdrop label,
     headerbar .linked > button:checked:backdrop label {
       color: rgba(255, 81, 47, 0.6); }
+  .titlebar:not(headerbar) .linked:not(.vertical) > entry,
+  headerbar .linked:not(.vertical) > entry {
+    border-color: rgba(0, 0, 0, 0.2);
+    box-shadow: none;
+    background: #242632;
+    color: #f8f8f2;
+    caret-color: #f8f8f2; }
+    .titlebar:not(headerbar) .linked:not(.vertical) > entry *,
+    headerbar .linked:not(.vertical) > entry * {
+      color: #f8f8f2; }
+    .titlebar:not(headerbar) .linked:not(.vertical) > entry:focus,
+    headerbar .linked:not(.vertical) > entry:focus {
+      border-color: #FF512F; }
   .selection-mode.titlebar:not(headerbar),
   headerbar.selection-mode {
     color: #f8f8f2;
