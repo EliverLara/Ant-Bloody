@@ -2571,6 +2571,19 @@ headerbar {
       .titlebar .path-bar-box headerbar button:checked:backdrop label,
       headerbar .path-bar-box button:checked:backdrop label {
         color: #f8f8f2; }
+  .titlebar .linked:not(.vertical) > entry,
+  headerbar .linked:not(.vertical) > entry {
+    border-color: #12181b;
+    box-shadow: none;
+    background: #243236;
+    color: #d8dee9;
+    caret-color: #d8dee9; }
+    .titlebar .linked:not(.vertical) > entry *,
+    headerbar .linked:not(.vertical) > entry * {
+      color: #d8dee9; }
+    .titlebar .linked:not(.vertical) > entry:focus,
+    headerbar .linked:not(.vertical) > entry:focus {
+      border-color: #FF512F; }
   .titlebar .path-bar-box .dim-label, .titlebar .path-bar-box label.separator, .titlebar .path-bar-box .subtitle,
   headerbar .path-bar-box .dim-label,
   headerbar .path-bar-box label.separator,
