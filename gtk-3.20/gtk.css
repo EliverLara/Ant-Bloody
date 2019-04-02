@@ -3487,54 +3487,6 @@ scale {
       box-shadow: inset 0 1px rgba(255, 255, 255, 0.2), 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
     row:selected scale slider:disabled, row:selected scale slider {
       border-color: #fb2900; }
-    .osd scale slider {
-      color: #fefefe;
-      border-color: #12181b;
-      background-color: rgba(26, 36, 39, 0.93);
-      background-clip: padding-box;
-      text-shadow: 0 1px black;
-      -gtk-icon-shadow: 0 1px black;
-      outline-color: rgba(254, 254, 254, 0.3);
-      border-color: #0c1011;
-      background-color: #1a2427; }
-      .osd scale slider:hover {
-        color: white;
-        border-color: #12181b;
-        background-image: linear-gradient(to bottom, rgba(50, 69, 76, 0.93), rgba(50, 69, 76, 0.93));
-        background-clip: padding-box;
-        text-shadow: 0 1px black;
-        -gtk-icon-shadow: 0 1px black;
-        outline-color: rgba(254, 254, 254, 0.3);
-        background-color: #1a2427; }
-      .osd scale slider:active {
-        color: white;
-        border-color: #12181b;
-        background-image: linear-gradient(to bottom, rgba(38, 52, 57, 0.93), rgba(38, 52, 57, 0.93));
-        background-clip: padding-box;
-        text-shadow: none;
-        -gtk-icon-shadow: none;
-        outline-color: rgba(254, 254, 254, 0.3);
-        background-color: #1a2427; }
-      .osd scale slider:disabled {
-        color: #8c9192;
-        border-color: #12181b;
-        background-image: linear-gradient(to bottom, rgba(49, 57, 60, 0.5), rgba(49, 57, 60, 0.5));
-        background-clip: padding-box;
-        box-shadow: none;
-        text-shadow: none;
-        -gtk-icon-shadow: none;
-        background-color: #1a2427; }
-      .osd scale slider:backdrop {
-        color: #fefefe;
-        border-color: #12181b;
-        background-image: linear-gradient(to bottom, rgba(26, 36, 39, 0.93), rgba(26, 36, 39, 0.93));
-        background-clip: padding-box;
-        box-shadow: none;
-        text-shadow: none;
-        -gtk-icon-shadow: none;
-        background-color: #1a2427; }
-        .osd scale slider:backdrop:disabled {
-          background-color: #1a2427; }
   scale value {
     color: alpha(currentColor,0.4); }
   scale marks {
