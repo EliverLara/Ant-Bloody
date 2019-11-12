@@ -1062,7 +1062,8 @@ StScrollBar {
   border: 1px solid #b2b4c7; }
   .system-menu-action:hover, .system-menu-action:focus {
     border: 1px solid #FF512F;
-    color: #FF512F; }
+    color: #FF512F;
+    background-color: transparent; }
   .system-menu-action:active {
     background-color: #fb2900;
     color: #f7f7f7; }
