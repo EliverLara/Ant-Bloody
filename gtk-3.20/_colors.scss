@@ -71,8 +71,8 @@ $info_color: $lime;
 $question_color: $cyan;
 
 // Panel colors
-$panel_bg_color: transparentize(#fff, 0.7);
-$panel_fg_color: $fg_color;
+$panel_bg_color: $headerbar_color;
+$panel_fg_color: $headerbar_fg_color;
 $panel_borders_color: transparentize(#fff, 0.8);
 
 // Disabled state colors
