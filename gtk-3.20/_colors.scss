@@ -8,6 +8,7 @@ $bg_color: if($variant == 'light', #eee, #1E282C);
 $fg_color: if($variant == 'light', #1e1f29, #C3C7D1);
 $complementary_color: if($variant == 'light', #eee, #243136);
 $dracula: #1e1f29;
+$sidebar_color: if($variant == 'light', lighten($dracula, 1.77%), $base_color);
 // Primary colors
 $lime: #B2FFA9;
 $red: #ED3A53;
