@@ -2738,7 +2738,7 @@ window.csd > .titlebar:not(headerbar) {
   box-shadow: none; }
 
 .titlebar:not(headerbar) > separator, .titlebar:not(headerbar) > separator:backdrop {
-  background: #1E282C; }
+  background: #12181b; }
 
 .titlebar button:active {
   color: #FF512F; }
@@ -6126,14 +6126,14 @@ panel-toplevel.background na-tray-applet {
 
 MsdOsdWindow.background.osd {
   border-radius: 2px;
-  border: 1px solid rgba(238, 238, 238, 0.1); }
+  border: 1px solid #d5d5d5; }
   MsdOsdWindow.background.osd .progressbar {
     background-color: #FF512F;
     border: none;
     border-color: #FF512F;
     border-radius: 5px; }
   MsdOsdWindow.background.osd .trough {
-    background-color: rgba(9, 10, 12, 0.8);
+    background-color: rgba(16, 22, 24, 0.93);
     border: none;
     border-radius: 5px; }
 
@@ -6286,14 +6286,14 @@ ConversationListView {
 
 /* thunar */
 .thunar toolbar {
-  background-color: #1E282C; }
+  background-color: #f8f8f2; }
 
 /* buttons in toolbar */
 .thunar toolbar.horizontal button image {
   -gtk-icon-transform: scale(0.72); }
 
 scrolledwindow.sidebar treeview.view {
-  background: #1E282C;
+  background: #f8f8f2;
   padding: 1.5px;
   border: none;
   box-shadow: none; }
