@@ -3,7 +3,6 @@
 *****************/
 /* GLOBALS */
 stage {
-  font-family: Roboto, Ubuntu, Cantarell, Sans-Serif;
   font-size: 10pt;
   color: #C3C7D1; }
 
@@ -803,7 +802,7 @@ StScrollBar {
 .calendar {
   margin-bottom: 1em; }
 
-.calendar, .world-clocks-button, .weather-button {
+.calendar, .world-clocks-button, .weather-button, .events-button {
   background: transparent;
   border: none; }
 
