@@ -4,7 +4,7 @@
 .sidebar {
   border-style: none;
   border-width: 0;
-  background-color: mix($bg_color, $base_color, 50%);
+  background-color: $sidebar_color;
   .frame{
     border: none;
   }
@@ -74,7 +74,7 @@
     border-color: $borders_color;
 
     list {
-      background-color: if($variant == 'light', lighten($dracula, 1.77%), $base_color); 
+      background-color: $sidebar_color;
       color: #F2EFEA; 
      }
     
