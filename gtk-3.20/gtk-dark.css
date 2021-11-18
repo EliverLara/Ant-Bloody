@@ -3982,7 +3982,7 @@ treeview ~ scrollbar.vertical {
 .sidebar {
   border-style: none;
   border-width: 0;
-  background-color: #1e282c; }
+  background-color: #1E282C; }
   .sidebar .frame {
     border: none; }
   stacksidebar.sidebar:dir(ltr) list, stacksidebar.sidebar.left list, stacksidebar.sidebar.left:dir(rtl) list, .sidebar:dir(ltr), .sidebar.left, .sidebar.left:dir(rtl) {
@@ -3994,7 +3994,7 @@ treeview ~ scrollbar.vertical {
     border-left: 1px solid rgba(238, 238, 238, 0.1);
     border-right-style: none; }
   .sidebar:backdrop {
-    background-color: #1f2a2e;
+    background-color: #1E282C;
     border-color: rgba(97, 104, 106, 0.19);
     transition: 200ms ease-out; }
   .sidebar row {
