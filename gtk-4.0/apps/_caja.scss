@@ -1,0 +1,83 @@
+.caja-notebook .entry {
+    background: $base_color;
+    color: $fg_color;
+    border-color: $borders_color;
+    &:selected {
+      background: $selected_bg_color;
+      color: $selected_fg_color;
+    }
+}
+
+/**************
+* Caja sidebar *
+**************/
+
+$_sidebar_bg:  if($variant == 'light', lighten($dracula, 1.77%), $base_color);
+
+.caja-side-pane {
+
+    button.flat.toggle {
+        color: $headerbar_fg_color;
+    }
+
+    background: $_sidebar_bg;
+    treeview.view,
+    textview.view text,
+    viewport.frame,
+    widget .vertical {
+        background: $_sidebar_bg;
+        color: #F2EFEA;
+        padding: 3px 2px;
+        &:hover {
+            background-color: transparentize($darkpurple, 0.8);
+        }
+        &:selected {
+            color: $selected_bg_color;
+            background: $_sidebar_bg;
+            &:hover {
+                background-color: transparentize($selected_bg_color, 0.8);
+            }
+        }
+
+    }
+
+}
+
+/**************
+* Caja pathbar *
+**************/
+.caja-navigation-window .primary-toolbar {
+    background: $headerbar_color;
+    button {
+        &, &:backdrop { @include button(normal-header); }
+        &:hover,
+        &:active,
+        &:backdrop:active,
+        &:backdrop:checked {
+          background: $selected_bg_color;
+          box-shadow: none;
+          &, & label {
+              color: $selected_fg_color;  
+          }
+        }
+    }
+
+ }
+
+.caja-pathbar button  {
+    &, &:backdrop { 
+        @include button(normal-header); 
+        color: $fg_color;
+    }
+    &:hover,
+    &:active,
+    &:checked,
+    &:backdrop:active,
+    &:backdrop:checked {
+      background: transparent;
+      box-shadow: none;
+      &, & label {
+          color: $selected_bg_color;
+      }
+    }
+}
