@@ -523,7 +523,7 @@ StScrollBar {
   color: $fg_color;
   .popup-menu-arrow { } //defined globally in the TOP BAR
   .popup-sub-menu {
-    background-color:  transparentize(darken($main_dark,57%), 0.8);
+    background-color: darken($bg_color, 2%);
     box-shadow: $depth6;
   }
 
@@ -535,19 +535,13 @@ StScrollBar {
     &:ltr { padding-right: 1.75em; padding-left: 0; }
     &:rtl { padding-right: 0; padding-left: 1.75em; }
 
-    // Fix overlaping text in 'opened windows' title
-    &:first-child:insensitive {
-      margin-bottom: 10px;
-      margin-left: 0;
-    }
-
     &:checked {
-      background-color: transparentize(darken($bg_color, 4%), 0.07);
+      background-color: transparentize(lighten($bg_color, 4%), 0.07);
       color: $selected_fg_color;
       box-shadow: inset 1px 0px 0px lighten($selected_bg_color,5%);
       font-weight: normal;
       &:hover{
-        background-color: transparentize(darken($bg_color, 4%), 0.07);
+        background-color: transparentize(lighten($bg_color, 4%), 0.07);
         color: $selected_bg_color;
       }
     }

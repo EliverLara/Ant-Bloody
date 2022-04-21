@@ -496,7 +496,7 @@ StScrollBar {
   background-color: transparent;
   color: #C3C7D1; }
   .popup-menu .popup-sub-menu {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: #1a1b23;
     box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.2); }
   .popup-menu .popup-menu-content {
     padding: 16px 0; }
@@ -509,16 +509,13 @@ StScrollBar {
     .popup-menu .popup-menu-item:rtl {
       padding-right: 0;
       padding-left: 1.75em; }
-    .popup-menu .popup-menu-item:first-child:insensitive {
-      margin-bottom: 10px;
-      margin-left: 0; }
     .popup-menu .popup-menu-item:checked {
-      background-color: rgba(21, 22, 29, 0.93);
+      background-color: rgba(39, 40, 53, 0.93);
       color: #f7f7f7;
       box-shadow: inset 1px 0px 0px #ff6649;
       font-weight: normal; }
       .popup-menu .popup-menu-item:checked:hover {
-        background-color: rgba(21, 22, 29, 0.93);
+        background-color: rgba(39, 40, 53, 0.93);
         color: #FF512F; }
     .popup-menu .popup-menu-item.selected {
       background-color: rgba(195, 199, 209, 0.1);
