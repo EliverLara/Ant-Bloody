@@ -146,14 +146,14 @@ StScrollBar {
   color: #b7b7b7;
   border-color: black;
   -slider-height: 0.1em;
-  -slider-background-color: #2d2f3e;
+  -slider-background-color: #383a4c;
   -slider-border-color: black;
   -slider-active-background-color: #ffb86c;
   -slider-active-border-color: #B2FFA9;
   -slider-border-width: 0;
   -slider-handle-radius: 6px;
   -barlevel-height: 0.1em;
-  -barlevel-background-color: #2d2f3e;
+  -barlevel-background-color: #383a4c;
   -barlevel-border-color: black;
   -barlevel-active-background-color: #ffb86c;
   -barlevel-active-border-color: #B2FFA9;
@@ -532,6 +532,7 @@ StScrollBar {
   .popup-menu-item:checked {
     background-color: rgba(255, 81, 47, 0.8) !important;
     color: #f7f7f7 !important;
+    font-weight: bold;
     border-radius: 6px 6px 0px 0px;
     box-shadow: none; }
   .popup-menu-item:insensitive {
@@ -559,7 +560,7 @@ StScrollBar {
     margin-left: 6px; }
   .popup-separator-menu-item .popup-separator-menu-item-separator {
     height: 1px;
-    background-color: #2d2f3e; }
+    background-color: #383a4c; }
   .popup-separator-menu-item .popup-menu-ornament {
     width: 0 !important; }
   .popup-sub-menu .popup-separator-menu-item {
@@ -569,7 +570,7 @@ StScrollBar {
     .popup-sub-menu .popup-separator-menu-item:rtl {
       margin-left: 2.5em; }
     .popup-sub-menu .popup-separator-menu-item .popup-separator-menu-item-separator {
-      background-color: #3c3e52; }
+      background-color: #474961; }
 
 .background-menu {
   -boxpointer-gap: 4px;
@@ -595,7 +596,7 @@ StScrollBar {
     color: #C3C7D1;
     border: 1px solid #181820;
     -barlevel-height: 0.4em;
-    -barlevel-background-color: #2d2f3e;
+    -barlevel-background-color: #383a4c;
     -barlevel-active-background-color: #FF512F;
     -barlevel-overdrive-color: #ED3A53;
     -barlevel-overdrive-separator-width: 0.2em; }
@@ -810,7 +811,8 @@ StScrollBar {
   border: 0 solid transparent;
   background: #21222d;
   border-radius: 7px;
-  box-shadow: 0px 0px 1px 1px #181820 inset; }
+  box-shadow: 0px 0px 1px 1px #181820 inset;
+  padding: 0; }
 
 .datemenu-today-button,
 .events-section-title,
@@ -959,7 +961,6 @@ StScrollBar {
 
 /* Message list */
 .message-list {
-  width: 31.5em;
   border: none; }
   .message-list .message-title, .message-list .message-content, .message-list .message-body {
     color: #b7bcc8; }
@@ -1271,7 +1272,7 @@ StScrollBar {
 
 .search-section-separator {
   height: 2px;
-  background-color: #2d2f3e; }
+  background-color: #383a4c; }
 
 .list-search-result-content {
   spacing: 30px; }
@@ -1300,7 +1301,7 @@ StScrollBar {
 
 .dash-separator {
   width: 1px;
-  background-color: #2d2f3e; }
+  background-color: #383a4c; }
 
 .dash-label {
   border-radius: 7px;
