@@ -898,7 +898,7 @@ StScrollBar {
   height: 2.4em;
   padding: 0.1em;
   margin: 2px;
-  border-radius: 1.4em;
+  border-radius: 99px;
   color: #C3C7D1; }
   .calendar-day-base:hover, .calendar-day-base:focus {
     background-color: #292a38; }
