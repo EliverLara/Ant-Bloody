@@ -6310,6 +6310,13 @@ window.thunar paned > scrolledwindow treeview.view:selected {
   border-radius: 0;
   box-shadow: none; }
 
+window.thunar toolbar.horizontal entry {
+  border-radius: 5px;
+  background-color: #2a2c3a;
+  caret-color: #F2EFEA; }
+  window.thunar toolbar.horizontal entry, window.thunar toolbar.horizontal entry image {
+    color: #F2EFEA; }
+
 .nemo-window .places-treeview {
   -NemoPlacesTreeView-disk-full-bg-color: #42445a;
   -NemoPlacesTreeView-disk-full-fg-color: #FF512F;
