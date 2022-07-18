@@ -45,3 +45,10 @@ window.thunar paned > scrolledwindow treeview.view {
     box-shadow: none;
   }
 }
+
+window.thunar toolbar.horizontal entry {
+  border-radius: 5px;
+  background-color: lighten($sidebar_color, 4%);
+  caret-color: #F2EFEA;
+  &, image { color: #F2EFEA; }
+}
