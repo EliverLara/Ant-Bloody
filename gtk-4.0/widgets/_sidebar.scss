@@ -1,10 +1,11 @@
 /***********
  * Sidebar *
  ***********/
-.sidebar {
+.sidebar, .nautilus-window .navigation-sidebar {
   border-style: none;
   border-width: 0;
   background-color: $sidebar_color;
+  color: #F2EFEA;
   .frame{
     border: none;
   }
@@ -30,7 +31,9 @@
   }
 
   row{
-    padding: 7px 14px;
+    margin: 0;
+    padding: 2px 12px;
+    border-radius: 0;
     &:selected {
       &:backdrop {
         color: $backdrop_selected_bg_color;
@@ -42,10 +45,12 @@
       &:hover{
         background-color: transparentize($selected_bg_color, 0.8);
       }
+      &:active { box-shadow: none; }
       background: transparent;
       color: $selected_bg_color;
       label{
         color: $selected_bg_color;
+        font-weight: bold;
       }
     }
   }
