@@ -3201,6 +3201,15 @@ notebook > stack:not(:only-child) {
   notebook > stack:not(:only-child):backdrop {
     background-color: #f6f6ef; }
 
+tabbox {
+  background-color: #eee;
+  padding: 0px; }
+  tabbox > tab:checked, tabbox > tab:selected,
+  tabbox > tabboxchild > tab:checked,
+  tabbox > tabboxchild > tab:selected {
+    background-color: #f8f8f2;
+    color: #1e1f29; }
+
 /*********
  * Paned *
  *********/
