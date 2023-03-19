@@ -3269,12 +3269,17 @@ notebook > stack:not(:only-child) {
   notebook > stack:not(:only-child):backdrop {
     background-color: #202b2f; }
 
-tabbox {
+tabbar:backdrop .box > scrolledwindow,
+tabbar:backdrop .box > .start-action,
+tabbar:backdrop .box > .end-action {
+  filter: opacity(1); }
+tabbar tabbox {
   background-color: #243136;
-  padding: 0px; }
-  tabbox > tab:checked, tabbox > tab:selected,
-  tabbox > tabboxchild > tab:checked,
-  tabbox > tabboxchild > tab:selected {
+  padding: 0px;
+  color: #C3C7D1; }
+  tabbar tabbox > tab:checked, tabbar tabbox > tab:selected,
+  tabbar tabbox > tabboxchild > tab:checked,
+  tabbar tabbox > tabboxchild > tab:selected {
     background-color: #1E282C;
     color: #C3C7D1; }
 
