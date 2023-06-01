@@ -1591,6 +1591,7 @@ $slider_size: 16px;
     transition-duration: 100ms;
     text-align: center;
     box-shadow: none;
+    border-radius: 12px;
   }
 
 /* App Folders */
@@ -1603,6 +1604,7 @@ $slider_size: 16px;
   background-color:  $_dash_bg;
   border: none;
   box-shadow: none;
+  border-radius: 20px;
   
   & .folder-name-label { color: $fg_color; }
 
