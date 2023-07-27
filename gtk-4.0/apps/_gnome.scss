@@ -119,7 +119,6 @@
     background: lighten($headerbar_color, 2%); 
     color: $headerbar_fg_color;
     caret-color: $headerbar_fg_color;
-    *{ color: $headerbar_fg_color; }
 
     #NautilusQueryEditorTag {
       > button {
@@ -133,6 +132,10 @@
       margin: 0;
       -gtk-icon-size: 12px;
       padding: 0 4px;
+    }
+
+    image {
+      color: $headerbar_fg_color;
     }
 
     > text, > image { margin: 0; }
