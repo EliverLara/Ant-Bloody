@@ -33,7 +33,7 @@ window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-
 }
 
 /* thunar sidepane */
-window.thunar paned > scrolledwindow treeview.view {
+.thunar scrolledwindow.sidebar treeview.view {
 
   &:hover {
     background: darken($sidebar_color, 4%);
