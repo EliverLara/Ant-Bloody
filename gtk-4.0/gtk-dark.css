@@ -1082,11 +1082,11 @@ button.color {
   button.color colorswatch:only-child, button.color colorswatch:only-child overlay {
     border-radius: 0; }
 
-notebook button, list button, .view button, iconview button, popover button {
+notebook button, list button, popover button {
   box-shadow: inset 0px 0px 0px 1px rgba(238, 238, 238, 0.1); }
-  notebook button:backdrop, list button:backdrop, .view button:backdrop, iconview button:backdrop, popover button:backdrop {
+  notebook button:backdrop, list button:backdrop, popover button:backdrop {
     box-shadow: inset 0px 0px 0px 1px rgba(238, 238, 238, 0.1); }
-notebook .linked > button, list .linked > button, .view .linked > button, iconview .linked > button, popover .linked > button {
+notebook .linked > button, list .linked > button, popover .linked > button {
   box-shadow: none; }
 
 /************
@@ -2658,8 +2658,8 @@ headerbar spinbutton,
 headerbar separator:not(.sidebar),
 headerbar button,
 headerbar menubutton {
-  margin-top: 5px;
-  margin-bottom: 5px; }
+  margin-top: 3px;
+  margin-bottom: 3px; }
 headerbar menubutton > button,
 headerbar spinbutton > button,
 headerbar splitbutton > button,
@@ -2695,6 +2695,15 @@ window.csd > .titlebar:not(headerbar) {
   background: #1E282C; }
 .titlebar button:active {
   color: #FF512F; }
+
+.sidebar-pane .top-bar, .sidebar-pane .top-bar headerbar, .content-pane .top-bar, .content-pane .top-bar headerbar {
+  background-color: #1E282C; }
+.sidebar-pane .top-bar headerbar button, .content-pane .top-bar headerbar button {
+  margin: 0; }
+
+.nautilus-window .sidebar-pane .top-bar headerbar {
+  padding-top: 1px;
+  padding-bottom: 1px; }
 
 /**************
  * GtkInfoBar *
