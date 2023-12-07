@@ -5831,6 +5831,8 @@ radiobutton.color-button:active > radio {
   color: #C3C7D1;
   text-shadow: none;
   -gtk-icon-shadow: none; }
+  .xfce4-panel.panel progressbar trough {
+    background-color: rgba(255, 255, 255, 0.14); }
 
 #tasklist-button {
   color: rgba(195, 199, 209, 0.8);
