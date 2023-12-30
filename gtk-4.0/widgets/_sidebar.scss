@@ -128,7 +128,11 @@ placessidebar.sidebar, .nautilus-window .navigation-sidebar {
 		row{
 			&.sidebar-row {
         margin: 0;
-        label{ color: #98abb2; }
+        padding: 1px 11px;
+        label { 
+          color: #98abb2; 
+          padding-left: 8px;
+        }
 				&.sidebar-row{
 					.sidebar-icon {
 						margin-left:-14px;
