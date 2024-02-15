@@ -2799,19 +2799,22 @@ infobar {
       box-shadow: none; }
 
 .info {
-  background-color: #B2FFA9; }
+  background-color: #B2FFA9;
+  color: #1e1f29; }
   .info:backdrop {
     background-color: #e0ffdc;
     color: #f8f8f2; }
 
 .warning {
-  background-color: #ffb86c; }
+  background-color: #ffb86c;
+  color: #1e1f29; }
   .warning:backdrop {
     background-color: #ffd19f;
     color: #f8f8f2; }
 
 .question {
-  background-color: #66D7D1; }
+  background-color: #66D7D1;
+  color: #1e1f29; }
   .question:backdrop {
     background-color: #8ee2dd;
     color: #f8f8f2; }
