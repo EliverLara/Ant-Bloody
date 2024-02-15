@@ -2780,19 +2780,22 @@ infobar {
       box-shadow: none; }
 
 .info {
-  background-color: #B2FFA9; }
+  background-color: #B2FFA9;
+  color: #C3C7D1; }
   .info:backdrop {
     background-color: #e0ffdc;
     color: rgba(248, 248, 242, 0.5); }
 
 .warning {
-  background-color: #ff9f39; }
+  background-color: #ff9f39;
+  color: #C3C7D1; }
   .warning:backdrop {
     background-color: #ffb86c;
     color: rgba(248, 248, 242, 0.5); }
 
 .question {
-  background-color: #66D7D1; }
+  background-color: #66D7D1;
+  color: #C3C7D1; }
   .question:backdrop {
     background-color: #8ee2dd;
     color: rgba(248, 248, 242, 0.5); }
