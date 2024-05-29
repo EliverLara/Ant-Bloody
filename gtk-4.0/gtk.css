@@ -1829,7 +1829,7 @@ entry {
       border-left-color: #FF512F; }
   .linked:not(.vertical) > spinbutton:not(.vertical) + .popup button, spinbutton.vertical.linked:not(.vertical) > text + .popup button, .linked:not(.vertical) >
   entry + .popup button {
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid #d5d5d5;
     border-radius: 0px 3px 3px 0px; }
 .linked.vertical > spinbutton:not(:disabled):not(.vertical) + entry:not(:disabled), spinbutton.vertical.linked > text:not(:disabled) + entry:not(:disabled), .linked.vertical > spinbutton:not(:disabled):not(.vertical) + spinbutton:not(:disabled):not(.vertical), spinbutton.vertical.linked > text:not(:disabled) + spinbutton:not(:disabled):not(.vertical), spinbutton.vertical.linked > spinbutton:not(:disabled):not(.vertical) + text:not(:disabled), spinbutton.vertical.linked > text:not(:disabled) + text:not(:disabled), .linked.vertical >
 entry:not(:disabled) + entry:not(:disabled), .linked.vertical >
@@ -5643,7 +5643,6 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
     .nautilus-window .sidebar .list-row:hover:active {
       background-color: rgba(255, 81, 47, 0.9); }
 .nautilus-window #NautilusPathBar {
-  height: 20px;
   margin-top: 7px;
   margin-bottom: 7px;
   color: #d8dee9;
