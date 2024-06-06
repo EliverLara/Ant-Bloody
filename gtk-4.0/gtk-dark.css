@@ -3137,7 +3137,8 @@ notebook > header {
       notebook > header.top > tabs > tab:backdrop {
         box-shadow: none; }
       notebook > header.top > tabs > tab:checked {
-        background-color: #1E282C; }
+        background-color: #1E282C;
+        box-shadow: none; }
         notebook > header.top > tabs > tab:checked:hover {
           background-color: #1E282C; }
   notebook > header.bottom {
