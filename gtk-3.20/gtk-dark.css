@@ -5568,10 +5568,10 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
  * Calendar events *
 ********************/
 .color-light.timed label {
-  color: #C3C7D1;
+  color: #1e1f29;
   opacity: 1; }
 .week-view .color-light.timed label, .color-light label, .year-view .color-light:not(.timed) label {
-  color: #C3C7D1;
+  color: #1e1f29;
   opacity: 1; }
 
 /********
@@ -5860,7 +5860,7 @@ panel-toplevel.background button:not(#tasklist-button) {
   panel-toplevel.background button:active:not(#tasklist-button), .xfce4-panel.panel button.flat:checked:not(.open_group), .mate-panel-menu-bar button:checked:not(#tasklist-button),
   panel-toplevel.background button:checked:not(#tasklist-button) {
     color: #d8dee9;
-    border-bottom: 2px solid #FF512F;
+    box-shadow: 0px -2px #FF512F inset;
     background-color: #161e21; }
     .xfce4-panel.panel button.flat:active:not(.open_group) label, .mate-panel-menu-bar button:active:not(#tasklist-button) label,
     panel-toplevel.background button:active:not(#tasklist-button) label, .xfce4-panel.panel button.flat:active:not(.open_group) image, .mate-panel-menu-bar button:active:not(#tasklist-button) image,
