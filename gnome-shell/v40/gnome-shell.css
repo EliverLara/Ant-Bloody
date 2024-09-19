@@ -8,34 +8,34 @@ stage {
 
 /* WIDGETS */
 /* Buttons */
-.button, .icon-button, .app-folder-dialog .edit-folder-button, .quick-settings-system-item .icon-button {
+.button, .icon-button, .app-folder-dialog .edit-folder-button, .quick-settings-system-item .icon-button, .screenshot-ui-type-button, .screenshot-ui-show-pointer-button {
   color: #C3C7D1;
   background-color: #272835;
   box-shadow: none;
   border: 1px solid #181820;
   text-shadow: 0 1px black;
   icon-shadow: 0 1px black; }
-  .button:focus, .icon-button:focus, .app-folder-dialog .edit-folder-button:focus, .quick-settings-system-item .icon-button:focus {
+  .button:focus, .icon-button:focus, .app-folder-dialog .edit-folder-button:focus, .quick-settings-system-item .icon-button:focus, .screenshot-ui-type-button:focus, .screenshot-ui-show-pointer-button:focus {
     background-color: #2f3141;
     color: #f7f7f7;
     text-shadow: 0 1px black;
     icon-shadow: 0 1px black;
     box-shadow: none !important;
     border: 1px solid #181820; }
-  .button:insensitive, .icon-button:insensitive, .app-folder-dialog .edit-folder-button:insensitive, .quick-settings-system-item .icon-button:insensitive {
+  .button:insensitive, .icon-button:insensitive, .app-folder-dialog .edit-folder-button:insensitive, .quick-settings-system-item .icon-button:insensitive, .screenshot-ui-type-button:insensitive, .screenshot-ui-show-pointer-button:insensitive {
     color: #71737d;
     background-color: rgba(48, 49, 59, 0.66);
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
     border: none;
     text-shadow: none;
     icon-shadow: none; }
-  .button:active, .icon-button:active, .app-folder-dialog .edit-folder-button:active, .quick-settings-system-item .icon-button:active {
+  .button:active, .icon-button:active, .app-folder-dialog .edit-folder-button:active, .quick-settings-system-item .icon-button:active, .screenshot-ui-type-button:active, .screenshot-ui-show-pointer-button:active {
     color: #FF512F;
     background-color: rgba(30, 31, 41, 0.95);
     border: 1px solid #181820;
     text-shadow: none;
     icon-shadow: none; }
-  .button:hover, .icon-button:hover, .app-folder-dialog .edit-folder-button:hover, .quick-settings-system-item .icon-button:hover {
+  .button:hover, .icon-button:hover, .app-folder-dialog .edit-folder-button:hover, .quick-settings-system-item .icon-button:hover, .screenshot-ui-type-button:hover, .screenshot-ui-show-pointer-button:hover {
     background-color: #2d2f3e;
     color: #f7f7f7;
     border: 1px solid #181820;
@@ -696,7 +696,7 @@ StScrollBar {
 
 .osd-window,
 .resize-popup,
-.switcher-list, .workspace-switcher-container {
+.switcher-list, .workspace-switcher-container, .screenshot-ui-panel {
   color: #C3C7D1;
   background-color: rgba(30, 31, 41, 0.95);
   border: 1px solid #181820;
@@ -2150,6 +2150,26 @@ StScrollBar {
   border: 1px solid #181820;
   text-shadow: 0 1px black;
   icon-shadow: 0 1px black; }
+
+.screenshot-ui-close-button {
+  background-color: #ffb86c;
+  background-gradient-start: #ff330b;
+  background-gradient-end: #ff330b;
+  background-gradient-direction: horizontal; }
+  .screenshot-ui-close-button:hover, .screenshot-ui-close-button:active {
+    background-color: #ee485f; }
+
+.screenshot-ui-window-selector {
+  background-color: #1e1f29; }
+
+.screenshot-ui-window-selector-window:hover .screenshot-ui-window-selector-window-border {
+  border-color: #e22500; }
+.screenshot-ui-window-selector-window:checked .screenshot-ui-window-selector-window-border {
+  border-color: #FF512F;
+  background-color: rgba(255, 81, 47, 0.2); }
+.screenshot-ui-window-selector-window:checked .screenshot-ui-window-selector-check {
+  color: #1e1f29;
+  background-color: #FF512F; }
 
 .openweather-current-summarybox,
 .openweather-forecast-icon,
