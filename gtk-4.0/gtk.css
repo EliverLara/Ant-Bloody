@@ -5781,6 +5781,13 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
 .circular.day {
   color: #d8dee9; }
 
+/******************************
+ * Gnome system monitor graph *
+******************************/
+#gnome-system-monitor .loadgraph {
+  background: #eee;
+  color: #1e1f29; }
+
 /********
  * Gala *
  *******/
