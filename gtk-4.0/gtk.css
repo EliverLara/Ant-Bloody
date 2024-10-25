@@ -5858,6 +5858,13 @@ headerbar .nautilus-window .path-bar-box .subtitle {
 .circular.day {
   color: #f8f8f2; }
 
+/******************************
+ * Gnome system monitor graph *
+******************************/
+#gnome-system-monitor .loadgraph {
+  background: #eee;
+  color: #1e1f29; }
+
 /********
  * Gala *
  *******/
