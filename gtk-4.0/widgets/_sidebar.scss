@@ -1,7 +1,7 @@
 /***********
  * Sidebar *
  ***********/
-.sidebar, .nautilus-window .navigation-sidebar {
+.sidebar, placessidebar {
   border-style: none;
   border-width: 0;
   background-color: $sidebar_color;
@@ -32,7 +32,7 @@
 
   row{
     margin: 0;
-    padding: 2px 12px;
+    padding: 8px 12px;
     border-radius: 0;
     &:selected {
       &:backdrop {
@@ -118,12 +118,17 @@ stacksidebar {
 
 placessidebar {
   > viewport.frame { border-style: none; }
-
+  
+  list, list:backdrop { 
+    background-color: $sidebar_color; 
+    color: #F2EFEA;
+  }
+  
   row {
 
     padding: 1px 11px;
     label { padding-left: 8px; }
-    
+    &.sidebar-row:selected:backdrop {background-color: transparent;}
     &.sidebar-new-bookmark-row { color: $selected_bg_color; }
 
     &:drop(active):not(:disabled) {
