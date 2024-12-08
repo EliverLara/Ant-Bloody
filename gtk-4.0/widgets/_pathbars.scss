@@ -69,7 +69,7 @@
   .current-dir  {
     label { padding: 1px 12px; }
 
-    label, image { @include button(active, transparentize($selected_bg_color, 0.3), #fff); }
+    label, image { @include button(active, $selected_bg_color, #fff); }
   }
 
   button.current-dir:only-child {
@@ -83,26 +83,20 @@
 
 // search entry
 #NautilusQueryEditor { 
-
-  margin-top: 6px;
-
-  box-shadow: none;
   background: lighten($headerbar_color, 2%); 
   color: $headerbar_fg_color;
   caret-color: $headerbar_fg_color;
+  border-color: $dark_borders_color;
+  &:focus-within { @include entry(focus); }
 
-  #NautilusQueryEditorTag {
-    > button {
-      margin: 0;
-    }
+  > text { 
+    background-color: transparent; 
+    color: $headerbar_fg_color;
   }
 
   > menubutton > button {
-    min-width: 16px;
-    min-height: 16px;
-    margin: 0;
     -gtk-icon-size: 12px;
-    padding: 0 4px;
+    padding: 0 2px;
   }
 
   image {
