@@ -6276,17 +6276,12 @@ window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-
     box-shadow: none;
     border: 1px solid #12181b;
     background-color: #1a2427; }
-    .nemo-window toolbar.primary-toolbar button:hover, .nemo-window toolbar.primary-toolbar .horizontal > button.flat.image-button:hover {
-      color: #f8f8f2;
-      text-shadow: none;
-      background-color: #1c262a;
-      border: 1px solid #12181b; }
-    .nemo-window toolbar.primary-toolbar button:selected, .nemo-window toolbar.primary-toolbar button:active, .nemo-window toolbar.primary-toolbar button:checked, .nemo-window toolbar.primary-toolbar .horizontal > button.flat.image-button:selected, .nemo-window toolbar.primary-toolbar .horizontal > button.flat.image-button:active, .nemo-window toolbar.primary-toolbar .horizontal > button.flat.image-button:checked {
+    .nemo-window toolbar.primary-toolbar button:hover, .nemo-window toolbar.primary-toolbar button:selected, .nemo-window toolbar.primary-toolbar button:active, .nemo-window toolbar.primary-toolbar button:checked, .nemo-window toolbar.primary-toolbar .horizontal > button.flat.image-button:hover, .nemo-window toolbar.primary-toolbar .horizontal > button.flat.image-button:selected, .nemo-window toolbar.primary-toolbar .horizontal > button.flat.image-button:active, .nemo-window toolbar.primary-toolbar .horizontal > button.flat.image-button:checked {
       color: #f8f8f2;
       outline-color: rgba(248, 248, 242, 0.3);
       background-color: #FF512F;
       text-shadow: none; }
-      .nemo-window toolbar.primary-toolbar button:selected:backdrop, .nemo-window toolbar.primary-toolbar button:active:backdrop, .nemo-window toolbar.primary-toolbar button:checked:backdrop, .nemo-window toolbar.primary-toolbar .horizontal > button.flat.image-button:selected:backdrop, .nemo-window toolbar.primary-toolbar .horizontal > button.flat.image-button:active:backdrop, .nemo-window toolbar.primary-toolbar .horizontal > button.flat.image-button:checked:backdrop {
+      .nemo-window toolbar.primary-toolbar button:hover:backdrop, .nemo-window toolbar.primary-toolbar button:selected:backdrop, .nemo-window toolbar.primary-toolbar button:active:backdrop, .nemo-window toolbar.primary-toolbar button:checked:backdrop, .nemo-window toolbar.primary-toolbar .horizontal > button.flat.image-button:hover:backdrop, .nemo-window toolbar.primary-toolbar .horizontal > button.flat.image-button:selected:backdrop, .nemo-window toolbar.primary-toolbar .horizontal > button.flat.image-button:active:backdrop, .nemo-window toolbar.primary-toolbar .horizontal > button.flat.image-button:checked:backdrop {
         color: rgba(248, 248, 242, 0.4);
         outline-color: rgba(248, 248, 242, 0.3);
         background-color: rgba(255, 81, 47, 0.6);

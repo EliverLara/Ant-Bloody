@@ -41,8 +41,7 @@
 
         button, .horizontal > button.flat.image-button  {
             @include button(normal-header);
-            &:hover { @include button(hover-header, $selected_bg_color, $selected_fg_color); }
-
+            &:hover,
             &:selected,
             &:active,
             &:checked { 
