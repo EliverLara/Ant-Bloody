@@ -2264,7 +2264,7 @@ GraniteWidgetsWelcome {
  ***************/
 .titlebar:not(headerbar), headerbar {
   padding: 0 6px;
-  min-height: 34px;
+  min-height: 38px;
   background-color: #1E282C;
   color: #C3C7D1;
   border-radius: 0; }
@@ -2812,6 +2812,11 @@ infobar {
 .error, .error:backdrop {
   color: #eb233f;
   background-color: transparent; }
+
+banner revealer widget {
+  background: #B2FFA9;
+  padding: 5px;
+  color: #C3C7D1; }
 
 levelbar.horizontal trough > block {
   min-height: 5px;
