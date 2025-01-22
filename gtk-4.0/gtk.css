@@ -2754,8 +2754,8 @@ window.csd > .titlebar:not(headerbar) {
   padding-top: 1px;
   padding-bottom: 1px; }
 
-.raised-top-bar {
-  background: transparent; }
+.raised.top-bar {
+  background: #1e1f29; }
 
 /**************
  * GtkInfoBar *
