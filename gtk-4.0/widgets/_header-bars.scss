@@ -362,6 +362,6 @@ headerbar {
   padding-bottom: 1px;
 }
 
-.raised-top-bar {
-  background: transparent;
+.raised.top-bar {
+  background: $headerbar_color;
 }
