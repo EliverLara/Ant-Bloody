@@ -256,3 +256,7 @@ headerbar {
     }
   }
 }
+
+.raised.top-bar {
+  background: mix($fg_color, darken($fg_color, 8%), 30%);
+}
