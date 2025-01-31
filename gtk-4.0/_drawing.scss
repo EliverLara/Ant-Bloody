@@ -267,14 +267,11 @@
 }
 
 @else if $t==backdrop-header {
-//
-// backdrop button headerbar look
-//
-color: if($tc==$text_color, transparentize($tc, 0.6), $tc);
-background-color: transparent;
-border-radius: 0;
-text-shadow: none;
-box-shadow: none;
+  //
+  // backdrop button headerbar look
+  //
+  color: if($tc==$text_color, transparentize($tc, 0.6), $tc);
+  background-color: darken($main_dark_color, 3%);
 }
 
 
@@ -423,10 +420,9 @@ box-shadow: none;
   //
   // reset
   //
-   // border-color: transparent;
+    border-color: transparent;
     background-color: transparent;
     background-image: none;
-    background-color: mix($bg_color, $base_color, 20%);
    // border: 1px solid transparentize($tc, 0.7);
     @include _shadows(inset 0 1px transparentize(white, 1),
                       $_blank_edge);
