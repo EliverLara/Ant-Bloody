@@ -3471,7 +3471,7 @@ paned.vertical > separator {
     border-radius: 0px 4px 4px 0px; }
 
 #NautilusQueryEditor {
-  background: #22232f;
+  background: #292a38;
   color: #f8f8f2;
   caret-color: #f8f8f2; }
   #NautilusQueryEditor:focus-within {
