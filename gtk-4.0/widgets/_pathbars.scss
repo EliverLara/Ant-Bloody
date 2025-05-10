@@ -85,3 +85,31 @@
     label { border-radius:0px 4px 4px 0px; }
   }
 }
+
+#NautilusQueryEditor { 
+  background: lighten($headerbar_color, 5%); 
+  color: $headerbar_fg_color;
+  caret-color: $headerbar_fg_color;
+  &:focus-within { @include entry(focus); }
+  #NautilusQueryEditorTag {
+    > button {
+      margin: 0;
+    }
+  }
+
+  > text { background-color: transparent; }
+
+  image { color: $headerbar_fg_color; }
+  
+  > menubutton > button {
+    margin-right: -7px;
+    -gtk-icon-size: 12px;
+    border: none;
+    background-color: transparent;
+    &:hover, &:active, &:focus, &:checked {
+      image { color: $selected_fg_color; }
+    }
+  }
+
+  > text, > image { margin: 0;}
+}
