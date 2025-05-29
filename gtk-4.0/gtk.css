@@ -2910,9 +2910,10 @@ button:visited {
  * Lists *
  *********/
 list, listview {
-  color: #1e1f29;
   background-color: #f8f8f2;
   border-color: rgba(0, 0, 0, 0.2); }
+  list, list label, listview, listview label {
+    color: #1e1f29; }
   list:backdrop, listview:backdrop {
     background-color: #f6f6ef;
     border-color: rgba(119, 119, 119, 0.28); }
@@ -3471,7 +3472,7 @@ paned.vertical > separator {
     border-radius: 0px 4px 4px 0px; }
 
 #NautilusQueryEditor {
-  background: #22232f;
+  background: #292a38;
   color: #f8f8f2;
   caret-color: #f8f8f2; }
   #NautilusQueryEditor:focus-within {
