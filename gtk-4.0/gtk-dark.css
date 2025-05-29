@@ -2903,9 +2903,10 @@ button:visited {
  * Lists *
  *********/
 list, listview {
-  color: #C3C7D1;
   background-color: #1E282C;
   border-color: rgba(238, 238, 238, 0.1); }
+  list, list label, listview, listview label {
+    color: #C3C7D1; }
   list:backdrop, listview:backdrop {
     background-color: #202b2f;
     border-color: rgba(97, 104, 106, 0.19); }
