@@ -121,7 +121,7 @@ placessidebar {
   
   list, list:backdrop { 
     background-color: $sidebar_color; 
-    color: #F2EFEA;
+    &, label { color: #F2EFEA; }
   }
   
   row {
