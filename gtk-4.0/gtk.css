@@ -3345,13 +3345,24 @@ tabbar:backdrop .box > .end-action {
   filter: opacity(1); }
 tabbar tabbox {
   background-color: #eee;
-  padding: 0px;
+  padding: 4px;
   color: #1e1f29; }
   tabbar tabbox > tab:checked, tabbar tabbox > tab:selected,
   tabbar tabbox > tabboxchild > tab:checked,
   tabbar tabbox > tabboxchild > tab:selected {
     background-color: #f8f8f2;
     color: #1e1f29; }
+  tabbar tabbox > tab button.flat,
+  tabbar tabbox > tabboxchild > tab button.flat {
+    padding: 0;
+    margin: 4px;
+    min-width: 20px;
+    min-height: 20px;
+    border-radius: 10px; }
+    tabbar tabbox > tab button.flat:hover,
+    tabbar tabbox > tabboxchild > tab button.flat:hover {
+      background-color: #ED3A53;
+      color: #f8f8f2; }
 
 /*********
  * Paned *
@@ -4373,8 +4384,9 @@ stacksidebar row {
 placessidebar > viewport.frame {
   border-style: none; }
 placessidebar list, placessidebar list:backdrop {
-  background-color: #22232e;
-  color: #F2EFEA; }
+  background-color: #22232e; }
+  placessidebar list, placessidebar list label, placessidebar list:backdrop, placessidebar list:backdrop label {
+    color: #F2EFEA; }
 placessidebar row {
   padding: 1px 11px; }
   placessidebar row label {
