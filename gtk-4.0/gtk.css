@@ -5683,6 +5683,22 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
 .circular.day {
   color: #d8dee9; }
 
+datechooser {
+  background-color: #1e1f29; }
+  datechooser button {
+    color: #f8f8f8; }
+  datechooser .circular.day.flat.text-button.other-month, datechooser .circular.day.flat.text-button.non-workday {
+    color: #86878c; }
+
+agenda-view list.background {
+  padding: 8px; }
+  agenda-view list.background, agenda-view list.background:backdrop {
+    background-color: #1e1f29; }
+  agenda-view list.background .caption-heading, agenda-view list.background .dim-label.no-events, agenda-view list.background label.no-events.separator, agenda-view list.background .titlebar:not(headerbar) .no-events.subtitle, .titlebar:not(headerbar) agenda-view list.background .no-events.subtitle,
+  agenda-view list.background headerbar .no-events.subtitle,
+  headerbar agenda-view list.background .no-events.subtitle {
+    color: #f8f8f8; }
+
 /******************************
  * Gnome system monitor graph *
 ******************************/
