@@ -5920,6 +5920,22 @@ headerbar .nautilus-window .path-bar-box .subtitle {
 .circular.day {
   color: #C3C7D1; }
 
+datechooser {
+  background-color: #1E282C; }
+  datechooser button {
+    color: #C3C7D1; }
+  datechooser .circular.day.flat.text-button.other-month, datechooser .circular.day.flat.text-button.non-workday {
+    color: #71787f; }
+
+agenda-view list.background {
+  padding: 8px; }
+  agenda-view list.background, agenda-view list.background:backdrop {
+    background-color: #1E282C; }
+  agenda-view list.background .caption-heading, agenda-view list.background .dim-label.no-events, agenda-view list.background label.no-events.separator, agenda-view list.background .titlebar:not(headerbar) .no-events.subtitle, .titlebar:not(headerbar) agenda-view list.background .no-events.subtitle,
+  agenda-view list.background headerbar .no-events.subtitle,
+  headerbar agenda-view list.background .no-events.subtitle {
+    color: #C3C7D1; }
+
 /******************************
  * Gnome system monitor graph *
 ******************************/
