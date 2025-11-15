@@ -194,9 +194,7 @@
  * Calendar sidebar *
 ********************/
 datechooser {
-  .flat { 
-    color: $headerbar_fg_color;
-  }
+  button { color: $headerbar_fg_color;}
   .circular.day.text-button{ 
     padding: 6px;
     border-radius: 50%;
@@ -212,6 +210,9 @@ datechooser {
       font-weight: bold;
     }
   }
+  .weekday, .weeknum { color: $insensitive_fg_color;}
+  .weeknum { background-color: lighten($sidebar_color, 4%);}
+  .current-week { background-color: transparentize($insensitive_fg_color, 0.9);}
 }
 
 agenda-view list.background {
@@ -221,11 +222,29 @@ agenda-view list.background {
   }
 }
 
-datechooser, agenda-view list.background {
+datechooser,
+agenda-view list.background,
+.calendar-list {
   &, &:backdrop { 
-    background-color: $headerbar_color;  
+    background-color: $sidebar_color;  
   }
 }
+// Calendar popover on Gnome 49
+popover datechooser {
+  background-color: transparent;
+  button { color: $fg_color;}
+  .circular.day.text-button{ 
+    color: $fg_color;
+  }
+  .weeknum { background-color: darken($base_color, 4%);}
+}
+
+// List of calendars on Gnome 49
+.calendar-list { 
+  row, label {color: $headerbar_fg_color; } 
+  row:hover { background-color: lighten($sidebar_color, 4%);}
+}
+
 
 /******************************
  * Gnome system monitor graph *
