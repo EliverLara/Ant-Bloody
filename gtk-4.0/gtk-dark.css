@@ -4139,17 +4139,18 @@ placessidebar {
     placessidebar list:backdrop {
       background-color: transparent; }
 
-.sidebar-pane .bottom-bar {
+.sidebar-pane, .sidebar-pane .bottom-bar {
   background-color: #1a2427; }
-  .sidebar-pane .bottom-bar button {
-    border-color: transparent;
-    background-color: transparent;
-    background-image: none;
-    box-shadow: inset 0 1px rgba(255, 255, 255, 0);
-    text-shadow: none;
-    -gtk-icon-shadow: none; }
-    .sidebar-pane .bottom-bar button .view, .sidebar-pane .bottom-bar button iconview {
-      background-color: transparent;
+.sidebar-pane .bottom-bar button {
+  border-color: transparent;
+  background-color: transparent;
+  background-image: none;
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0);
+  text-shadow: none;
+  -gtk-icon-shadow: none; }
+  .sidebar-pane .bottom-bar button .view, .sidebar-pane .bottom-bar button iconview {
+    background-color: transparent; }
+    .sidebar-pane .bottom-bar button .view label, .sidebar-pane .bottom-bar button iconview label {
       color: #d8dee9; }
 
 spinbutton {
@@ -5690,7 +5691,7 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
 /*******************
  * Calendar sidebar *
 ********************/
-datechooser .flat {
+datechooser button {
   color: #d8dee9; }
 datechooser .circular.day.text-button {
   padding: 6px;
@@ -5708,6 +5709,12 @@ datechooser .circular.day.text-button {
     background-color: #FF512F;
     text-shadow: none;
     font-weight: bold; }
+datechooser .weekday, datechooser .weeknum {
+  color: #86878c; }
+datechooser .weeknum {
+  background-color: #222f33; }
+datechooser .current-week {
+  background-color: rgba(134, 135, 140, 0.1); }
 
 agenda-view list.background {
   padding: 8px; }
@@ -5716,8 +5723,26 @@ agenda-view list.background {
   headerbar agenda-view list.background .no-events.subtitle {
     color: #d8dee9; }
 
-datechooser, datechooser:backdrop, agenda-view list.background, agenda-view list.background:backdrop {
-  background-color: #202C30; }
+datechooser, datechooser:backdrop,
+agenda-view list.background,
+agenda-view list.background:backdrop,
+.calendar-list,
+.calendar-list:backdrop {
+  background-color: #1a2427; }
+
+popover datechooser {
+  background-color: transparent; }
+  popover datechooser button {
+    color: #1e1f29; }
+  popover datechooser .circular.day.text-button {
+    color: #1e1f29; }
+  popover datechooser .weeknum {
+    background-color: #f1f1e5; }
+
+.calendar-list row, .calendar-list label {
+  color: #d8dee9; }
+.calendar-list row:hover {
+  background-color: #222f33; }
 
 /******************************
  * Gnome system monitor graph *
