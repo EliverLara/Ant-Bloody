@@ -4385,8 +4385,9 @@ stacksidebar row {
 placessidebar > viewport.frame {
   border-style: none; }
 placessidebar list, placessidebar list:backdrop {
-  background-color: #1E282C;
-  color: #F2EFEA; }
+  background-color: #1E282C; }
+  placessidebar list, placessidebar list label, placessidebar list:backdrop, placessidebar list:backdrop label {
+    color: #F2EFEA; }
 placessidebar row {
   padding: 1px 11px; }
   placessidebar row label {
