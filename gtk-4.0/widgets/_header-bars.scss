@@ -354,6 +354,8 @@ headerbar {
     headerbar button {
       margin: 0;
     }
+    // buttons in nautilus search configuration popover
+    popover.background button { @extend %button; }
   }
 }
 
